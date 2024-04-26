@@ -1,4 +1,4 @@
-package list.BasicOdernations;
+package list.BasicOperations;
 
 public class Tarefa {
     private String descricao;
@@ -12,6 +12,6 @@ public class Tarefa {
 
     @Override
     public String toString() {
-        return descricao;
+        return "Descricao da tarefa {" + descricao + "}" + "\n";
     }
 }
